@@ -1,0 +1,15 @@
+# Ignore all dot files
+.*
+
+# Ignore all dotfiles except the whitelisted ones
+!.env.example
+!.github
+!.gitignore
+!.eslintignore
+!.vscode
+!.node-version
+!.gitkeep
+
+# Ignore dependencies
+node_modules/
+
